@@ -1,0 +1,51 @@
+# Private personal documentation
+Private_Hebrew/
+
+# Large analysis videos
+*.avi
+
+# ANSYS working/project data
+# Keep exported PNG result images under Images/Analysis/ANSYS/ trackable.
+Images/Analysis/ANSYS/Project_2_ANSYS_files/
+Images/Analysis/ANSYS/Mechanical_files/
+Images/Analysis/ANSYS/Project_2_ANSYS.wbpj
+Images/Analysis/ANSYS/Mechanical.wbpj
+
+# Common ANSYS generated files
+*.rst
+*.rth
+*.rmg
+*.err
+*.out
+*.log
+*.db
+*.esav
+*.emat
+*.full
+*.mode
+*.mntr
+*.stat
+*.journal
+*.wbjn
+*.lock
+*.mechdb
+*.agdb
+
+# Temporary / backup files
+/tmp/
+*.tmp
+*.temp
+*.bak
+*.autosave
+~$*
+
+# SolidWorks temporary / backup files
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLDDRW
+*.sldbak
+
+# Old / duplicate SolidWorks material not intended for the public repository
+SolidWorks/NotNeedParts/
+SolidWorks/Pack&Go/
+SolidWorks/Pack&Go.zip
